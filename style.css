@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto";
+  
+}
+
+.nav-link{
+  color: #fff;
+  font-weight: 500;
+}
+
+.header-wrapper{
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header{
+  top: 0;
+  left: 0;
+    position: fixed;
+    background: #007765;
+    width: 100%;
+}
+
+.logo{
+    padding: 20px 0 18.96px 0;
+    
+}
+
+ul{
+  list-style: none; /*убираем маркеры списка*/
+  color: white;
+  display: flex;
+}
+
+a{
+  text-decoration: none;
+}
+
+li,p {
+   /*Размещаем список горизонтально для реализации меню*/
+  margin-right:5px; /*Добавляем отступ у пунктов меню*/
+ 
+}
+
+.jumbotron{
+  margin-top: 87px;
+  padding: 160px 0;
+  background: url("/image.png");
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  font-size: 72px;
+}
+
+
+
+.problem-wrapper{
+  max-width: 1200px;
+  height: 720px;
+  margin: 0 auto;
+  font-size: 32px;
+}
+
+.problem-wrapper p{
+  width: 1100px;
+  margin-top: 40px;
+}
+
+.problem-wrapper h2{
+  text-align: center;
+  margin-top: 48px;
+  color:#007765;
+}
+
+.problem-wrapper .p1{
+  margin-top: 16px;
+}
+
+.hero{
+  padding: 128px 0;
+  background: url("/image2.png");
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  font-size: 48px;
+  font-style: italic;
+  text-align: center;
+  
+}
+
+.hero p{
+  width: 1200px;
+}
+
+.ppc-wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ppc .block {
+  display: flex;
+  font-size: 32px;
+  margin-top: 16px;
+  max-width: 1200px;
+}
+
+.ppc h3{
+  text-align: center;
+  margin-top: 48px;
+  color:#007765;
+  font-size: 64px;
+  
+}
+
+.ppc .block2{
+  margin-top: 40px;
+  font-size: 32px;
+  max-width: 1200px;
+}
+
+.ppc .block3{
+  margin-top: 50px;
+  margin-block-end: 92px;
+  max-width: 1200px;
+}
+
+.ppc .img{
+  margin-right: 48px;
+}
+
+.team-wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.team h4{
+  text-align: center;
+  margin-top: 58px;
+  color:#007765;
+  font-size: 64px;
+}
+
+.team1{
+  display: flex;
+  max-width: 1030px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 56px;
+}
+
+.pers{
+  margin-right: 212px;
+  text-align: center;
+}
+
+.pers:last-child, .pers:nth-child(3){
+  margin-right:0;
+}
+
+.pers:nth-child(2){
+  margin-bottom: 82px;
+}
+
+.name{
+  font-size: 24px;
+  color: #007765;
+}
+
+.title{
+  font-style: italic;
+  font-size: 18px;
+}
+
+.footer-wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer{
+  background: #333333;
+}
+
+footer p{
+  text-align: center;
+  margin: 0 auto;
+  color: #FFFFFF;
+  margin-top: 50px;
+  display: block;
+  width: 540px;
+
+  padding-top: 50px;
+  padding-bottom: 62px;  
+
+}
+
+
+
